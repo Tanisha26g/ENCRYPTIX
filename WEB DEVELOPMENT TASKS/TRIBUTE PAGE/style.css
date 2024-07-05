@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #2980b9; /* Royal blue header */
+    color: #fff; /* White text */
+  }
+  
+  .header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .header h2 {
+    font-size: 1.5em;
+  }
+  
+  .main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bio-section,
+  .achievements-section,
+  .qualities-section {
+    margin-bottom: 20px;
+    text-align: justify;
+    width: 70%;
+  }
+  
+  .bio-section img {
+    max-width: 300px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .achievements-section img {
+    max-width: 500px;
+    margin: 0 auto; /* Center the image */
+  }
+  
+  .qualities-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2980b9; /* Royal blue footer */
+    color: #fff; /* White text */
+  }
+  
